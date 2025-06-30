@@ -8,8 +8,8 @@ import {
 
 const router = express.Router();
 
-router.post("/attendance", postAttendance); // /attendance?studentId=1&...
-router.get("/attendance", getAttendance);   // /attendance?studentId=1&...
+router.post("/attendance", postAttendance);
+router.get("/attendance", getAttendance);   
 router.get("/classes/:id/attendance", getClassAttendance);
 router.get("/students/:id/attendance", getStudentAttendanceSummary);
 

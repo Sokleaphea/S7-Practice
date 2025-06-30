@@ -1,5 +1,5 @@
 import { DataTypes } from "sequelize";
-import sequelize from "../databases/database.js";
+import sequelize from "../database/database.js";
 
 const Class = sequelize.define('Class', {
     name : {

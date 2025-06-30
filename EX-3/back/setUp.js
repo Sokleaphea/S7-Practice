@@ -1,4 +1,4 @@
-import sequelize from "./databases/database.js";
+import sequelize from "./database/database.js";
 import Student from "./models/Student.js";
 import Class from "./models/Class.js";
 import Attendance from "./models/Attendance.js";
